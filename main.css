@@ -1,0 +1,153 @@
+@media all {
+	header, footer, nav, section {display: block;}
+body {font: 400 16px/1.3 'Noto Sans JP', sans-serif; color: #000;}
+h1{text-align: center;margin: 0;}
+h2{font: 300 35px/1 'Averia Serif Libre',cursive;}
+}
+
+
+@media screen {
+
+/*masthead and navigation*/
+
+h1{text-align: center;padding: 20px 0 20px;margin-bottom: 0; font: 700 38px/35px 'Economica',sans-serif;}
+.farm{font-weight: 400;font-size: 30px; line-height: 35px;}
+.container{width: 1040px;margin: 0;box-sizing: border-box;}
+	header div { background: url(layout1-assets/barn-background.webp);background-size: cover;min-height: 400px;}
+
+#masthead nav ul {list-style: none; margin: 0; padding: 0;display: flex;justify-content: center;font: 700 16px/1 'Averia Serif Libre',cursive;}
+h1{text-align: center;}
+#containerTopNav a{text-decoration: none;color: #000;margin: 0 15px;}
+#containerTopNav a:hover, #containerTopNav a:focus{color: #980404;}
+.flex {display: flex; justify-content: space-between;}
+  .wrap {flex-wrap: wrap;}
+#virtualTour h2{text-align: center;}
+#virtualTour a,#virtualTour h2 {color: #980404;margin: 25px auto 25px; }
+#virtualTour a{ text-decoration:none; border: 1px solid #980404; font-size: 14px; padding: 15px 30px;text-transform: uppercase;}
+#virtualTour a:hover, #virtualTour a:focus{background: #980404; color: #fff;}
+#virtualTour div {height: 376px; display: flex;flex-direction: column;justify-content: center;}
+#masthead li{padding: 10px;}
+
+
+/*fresh produce */
+#eggsAndVeggies {display: flex;justify-content: center;border-bottom: 7px solid #FC0; margin-bottom: 60px;}
+.halfColumn { display:inline-block; }
+  .freshImg{display: block; min-width: 520px;height: 400px; background-size: cover;margin-bottom: 40px;}
+#freshVeggies{background: url(layout1-assets/squash.webp)center no-repeat;}
+#freshEggs{background: url(layout1-assets/chicken.webp)center no-repeat;}
+
+.halfColumn p{margin-bottom: 40px;text-align: center; line-height: 1.8;padding-left: 5px;padding-right: 5px;}
+.halfColumn h2{text-align: center;}
+
+
+/*saturday market*/
+#saturdayMarket{display: flex;justify-content: space-between;margin: auto;}
+.greenBeen {background: url(layout1-assets/beans.webp) center;width: 420px;height: 314px;background-size: cover;}
+.text, .greenBeen{display: inline-block;width: 48%;}
+#threePics{display: flex;justify-content: space-between;margin-top: 40px;margin-bottom: 40px;}
+.pics{display: inline-block;width: 31%;text-align: center;}
+#guitar{ background: url(layout1-assets/guitar.webp) center; }
+#faceArt{background: url(layout1-assets/face-painting.webp) center;}
+#califlower{background: url(layout1-assets/cauliflower.webp) center;}
+.marketPics{display:inline-block ;background-size: cover;width: 250px;height: 250px;}
+.text h2{line-height: 1.2;}
+#saturdayMarket p{text-transform: uppercase;width: 50%;}
+.pics p{text-transform: uppercase;text-align: center;}
+
+/*CSA Farmshares*/
+
+#tomato{ display: block;background: url(layout1-assets/vegetables.webp)center; background-size: cover; width: 100%;height: 409px;}
+#csa{display: block;background: #530001;height: 40px;text-decoration: none;text-align: center;padding: 60px;}
+#insertedH{margin:0 auto;color: #fff; text-transform: uppercase;}
+#producePickUp{margin: 60px auto 40px;width: 80%;text-align: center;font: 300 30px/1.3 'Averia Serif Libre', cursive;}
+input{width: 50%;border: none;border-bottom: 1px solid #363636;text-align: center;display: inline-block;padding: 10px 5px;}
+.form{text-align: center;margin-top: 5%;margin-bottom: 60px;}
+button{background: url(layout1-assets/sprite.webp);position: absolute;width: 50px;height: 40px;padding: 20px;border: none;}
+
+/*Event spaces*/
+
+#events{display: flex;justify-content: center;background: #228500;color: #fff;}
+#events div{display: inline-block;padding: 60px 5px;width: 30%;}
+#events h2{margin-bottom: 40px;margin-top: 10px;}
+.space{margin-top: 85px;}
+#events h3{font-size: 16px;}
+#events p{font-weight: 300;line-height: 1.6;}
+
+
+/*Footer*/
+footer{display: flex; justify-content: space-between;margin-top: 60px;margin-bottom: 60px;}
+footer div{display: inline-block;width: 32%;}
+footer ul{list-style: none;}
+footer a{text-decoration: none;color: #000;}
+footer a:hover,footer a:focus{color:#980404;}
+footer nav li{margin:1em;text-transform: uppercase;}
+.logo{text-align: center;padding: 20px 0 20px;margin-bottom: 0; font: 700 38px/35px 'Economica',sans-serif;margin: 0;}
+.adress{text-align: center;}
+#facebook{display: inline-block;width: 20px;height: 20px; background: url(layout1-assets/sprite.webp);}
+
+
+}
+
+
+@media screen and (max-width: 1050px) {
+.container{width: auto;}
+#virtualTour div,#eggsAndVeggies,#saturdayMarket{margin-left: 30px;margin-right: 30px;}
+
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 800px) {
+	h1{padding: 10px 0 5px;}
+	.container{width: auto;}
+	#eggsAndVeggies{flex-wrap: wrap;}
+	.halfColumn{width: 100%;margin-bottom: 60px;}
+	#events{flex-wrap: wrap;justify-content: space-between;}
+	#events div{width: 45%;}
+
+
+}
+
+
+@media screen and (max-width: 700px) {
+footer{flex-wrap: wrap;}
+footer div{width: 48%;}
+}
+
+
+@media screen and (max-width: 600px){
+h1{padding: 5px 0;}
+#masthead nav ul {flex-wrap: wrap;}
+#masthead li {width: 50%;padding: 10px;box-sizing: border-box;text-align: center;padding: 2px;}
+#threePics{flex-wrap: wrap;justify-content: space-between;}
+.pics{width: 48%;}
+#events{flex-direction: column;}
+#events div{width: 100%;padding: 0;}
+}
+
+
+
+
+
+@media screen and (max-width: 500px){
+#saturdayMarket{flex-wrap: wrap;}
+.text,.greenBeen,.pics{width: 100%;}
+footer div{width: 100%;}
+footer ul{text-align: center;}
+}
+
+
+
+@media print{
+	#containerTopNav, .form, footer nav, .logo{display: none;}
+	a{color: #000;}
+	body{font-size: 12pt;}
+	h1{font-size: 28pt;}
+	.farm{font-size: 24pt;}
+	h2{font-size: 18pt;}
+	h3{font-size: 15pt;}
+}
